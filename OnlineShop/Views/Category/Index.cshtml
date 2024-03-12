@@ -1,0 +1,33 @@
+﻿@using PremiumTime.Data
+@model List<Category>
+
+<h2> Category List</h2>
+
+<table class="table table-bordered table-borderd table-striped">
+    <thead>
+    <tr>
+        <th>
+            Category Name 
+        </th>
+        <th>
+            Display Order
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model.OrderBy(u=>u.DisplayOrder))
+        {
+            <tr>
+                <td>@obj.Name</td>
+                <td>
+                    @obj.DisplayOrder
+            </td>
+        </tr>
+        }
+    </tbody>
+
+</table>
+
+        
+
+        
