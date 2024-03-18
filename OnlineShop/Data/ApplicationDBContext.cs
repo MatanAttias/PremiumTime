@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Data;
+using PremiumTime.Models;
+
 
 namespace PremiumTime.Data
 {
@@ -9,7 +10,6 @@ namespace PremiumTime.Data
         {
              
         }
-
 
         public DbSet<Category> Categories { get; set; }
 
@@ -21,16 +21,5 @@ namespace PremiumTime.Data
                 new Category { Id = 3, Name = "History", DisplayOrder = 3 }
                 );
         }
-
     }
-
-
-
-
-
-
-
-
-
-
 }

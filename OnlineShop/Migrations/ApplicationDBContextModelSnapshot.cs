@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PremiumTime.Data;
 
+
 #nullable disable
 
 namespace PremiumTime.Migrations
