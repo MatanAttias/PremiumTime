@@ -2,7 +2,7 @@
 using PremiumTime.Models;
 
 
-namespace PremiumTime.Data
+namespace PremiumTime.DataAccess.Data
 {
     public class ApplicationDBContext : DbContext
     {

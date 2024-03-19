@@ -1,4 +1,4 @@
-namespace OnlineShop.Models
+namespace PremiumTime.Models
 {
     public class ErrorViewModel
     {

@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using OnlineShop.Models;
+using PremiumTime.Models;
 using System.Diagnostics;
 
 namespace OnlineShop.Controllers

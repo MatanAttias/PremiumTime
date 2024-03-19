@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PremiumTime.Data;
+using PremiumTime.DataAccess.Data;
 using PremiumTime.Models;
+
 
 namespace PremiumTime.Controllers
 {
