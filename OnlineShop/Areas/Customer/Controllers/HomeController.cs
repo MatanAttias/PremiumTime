@@ -2,8 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 using PremiumTime.Models;
 using System.Diagnostics;
 
-namespace OnlineShop.Controllers
+namespace PremiumTime.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -15,7 +16,7 @@ namespace OnlineShop.Controllers
 
         public IActionResult Index()
         {
-           
+
             return View();
         }
 
